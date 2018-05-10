@@ -1,0 +1,15 @@
+{
+    "port": 7706,
+    "databaseConnectionString": "mongodb://localhost:27017",
+    "databaseName": "CryptoTax",
+    "expressTrustProxy": false,
+    "upload": {
+        "directory": "temp/uploads",
+        "maxNumberOfFiles": 1,
+        "maxFileSize": 20971520
+    },
+    "parserServiceEndpoint": {
+        "ip": "localhost",
+        "port": 7707
+    }
+}
